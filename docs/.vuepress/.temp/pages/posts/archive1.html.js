@@ -1,16 +1,3 @@
 import comp from "F:/创作/vuepress-starter/docs/.vuepress/.temp/pages/posts/archive1.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/archive1.html\",\"title\":\"Archive Article1\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"1998-01-01T00:00:00.000Z\",\"category\":[\"History\"],\"tag\":[\"WWI\"],\"archive\":true},\"headers\":[{\"level\":2,\"title\":\"Heading 2\",\"slug\":\"heading-2\",\"link\":\"#heading-2\",\"children\":[{\"level\":3,\"title\":\"Heading 3\",\"slug\":\"heading-3\",\"link\":\"#heading-3\",\"children\":[]}]}],\"git\":{},\"filePathRelative\":\"posts/archive1.md\",\"excerpt\":\"\\n<h2>Heading 2</h2>\\n<p>Here is the content.</p>\\n<h3>Heading 3</h3>\\n<p>Here is the content.</p>\\n\"}")
+const data = JSON.parse("{\"path\":\"/posts/archive1.html\",\"title\":\"Archive Article1\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"1998-01-01T00:00:00.000Z\",\"category\":[\"History\"],\"tag\":[\"WWI\"],\"archive\":true},\"headers\":[{\"level\":2,\"title\":\"Heading 2\",\"slug\":\"heading-2\",\"link\":\"#heading-2\",\"children\":[{\"level\":3,\"title\":\"Heading 3\",\"slug\":\"heading-3\",\"link\":\"#heading-3\",\"children\":[]}]}],\"git\":{\"updatedTime\":1749099674000,\"contributors\":[{\"name\":\"17316902653\",\"username\":\"17316902653\",\"email\":\"2465915902@qq.com\",\"commits\":1,\"url\":\"https://github.com/17316902653\"}],\"changelog\":[{\"hash\":\"a5a943d12ea7d1f4365b9508c962557c39668d25\",\"time\":1749099674000,\"email\":\"2465915902@qq.com\",\"author\":\"17316902653\",\"message\":\"初始化\"}]},\"filePathRelative\":\"posts/archive1.md\",\"excerpt\":\"\\n<h2>Heading 2</h2>\\n<p>Here is the content.</p>\\n<h3>Heading 3</h3>\\n<p>Here is the content.</p>\\n\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
